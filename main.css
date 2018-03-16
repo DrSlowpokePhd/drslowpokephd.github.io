@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:700');
 
 body {
-  background-color: #f200ff;
+  background-color: linear-gradient(to left, green, pink);
 }
 
 div#header {
