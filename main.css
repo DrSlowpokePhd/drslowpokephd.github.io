@@ -13,6 +13,6 @@ div#header {
   font-size: 72px;
   background-color: #7bd2ed;
 }
-div#header>img {
-
+div#quote-body {
+    text-align: center;
 }
