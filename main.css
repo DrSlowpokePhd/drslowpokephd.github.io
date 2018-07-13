@@ -11,10 +11,10 @@ body {
 div#header {
   padding-top: 30px;
   height: 80%;
-  line-height: 5px;
+  line-height: 35px;
   text-align: center;
   font-family: 'Catamaran', sans-serif;
-  font-size: 72px;
+  font-size: 400%;
   background-color: #7bd2ed;
 }
 div#getter {
