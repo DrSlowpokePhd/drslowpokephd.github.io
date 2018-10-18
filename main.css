@@ -11,9 +11,12 @@ body {
 /*navbar code here*/
 .navbar{
     overflow: hidden;
-    background-color: #f200ff;
+    background-color: #c500d0;
     font-family: Catamaran;
-    border-radius: 10px;
+	border-color: black;
+	border-width: 5px;
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 .navbar a{
@@ -91,9 +94,10 @@ img.center {
     border-radius: 10px;
 }
 
-.column2 {
+/*Begin Column code*/
+.column4 {
     float: left;
-    width: 50%;
+    width: 25%;
 }
 
 .column3 {
@@ -101,16 +105,27 @@ img.center {
     width: 33.3%;
 }
 
+.row>h1 , .column3>h1 , .column4>h1 {
+	text-align: center;
+}
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+/*end column code*/
 
-div#blue_box{
+#blue_box{
     background-color: #7bd2ed;
+	width: 60%;
+
 }
 
+div#blue_box{
+	margin: auto;
+	border-radius: 15px;
+}
 .header {
     font-family: Catamaran, sans-serif;
     text-align: center;
@@ -122,7 +137,7 @@ div#blue_box{
 .num_radio {
     padding-bottom: 25px;
     font-size: 250%;
-    
+
 }
 
 div#getter {
