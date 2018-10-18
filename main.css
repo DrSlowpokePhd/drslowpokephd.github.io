@@ -2,25 +2,133 @@
 
 body {
   background-color: #f200ff;
-  background-image: image(bg_stars.gif);
+  background-image: url("bg_stars.gif");
   background-position: top-left;
   background-repeat: repeat;
 
 }
 
-div#header {
-  padding-top: 30px;
-  height: 80%;
-  line-height: 35px;
-  text-align: center;
-  font-family: 'Catamaran', sans-serif;
-  font-size: 400%;
-  background-color: #7bd2ed;
+/*navbar code here*/
+.navbar{
+    overflow: hidden;
+    background-color: #f200ff;
+    font-family: Catamaran;
+    border-radius: 10px;
 }
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*dropdown code here*/
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+img.center {
+    display: block;
+    padding: 20px;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    background-color: #f200ff;
+    border-radius: 10px;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+}
+
+.column3 {
+    float: left;
+    width: 33.3%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div#blue_box{
+    background-color: #7bd2ed;
+}
+
+.header {
+    font-family: Catamaran, sans-serif;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+}
+
+.num_radio {
+    padding-bottom: 25px;
+    font-size: 250%;
+    
+}
+
 div#getter {
-  font-size: 80px;
-  line-height: 6px;
-  letter-spacing: 25px;
+    font-size: 80px;
+    line-height: 6px;
+    letter-spacing: 25px;
     font-family: 'Catamaran', sans-serif;
     text-align: center;
 }
