@@ -1,17 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39|Merriweather');
+@import "animations.css";
+
+
+/*fade in animation*/
+
 
 body {
-  background-color: #f200ff;
-  background-image: url("bg_stars.gif");
-  background-position: top-left;
-  background-repeat: repeat;
+  background-color: #009FFD;
 
 }
 
 /*navbar code here*/
 .navbar{
     overflow: hidden;
-    background-color: #f200ff;
+    background-color: #FFF6E7;
     font-family: Catamaran;
     border-radius: 10px;
 }
@@ -19,10 +22,11 @@ body {
 .navbar a{
     float: left;
     font-size: 16px;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+
 }
 
 /*dropdown code here*/
@@ -37,16 +41,19 @@ body {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
   margin: 0; /* Important for vertical align on mobile phones */
+  background-image: linear-gradient(to-right, #FFF6E7 0%, #81968F 50%);
 }
 
-/* Add a red background color to navbar links on hover */
+
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  animation-name: gradient-swoop;
+  animation-duration: 1s;
+  animation-fill-mode: both;
 }
 
 /* Dropdown content (hidden by default) */
@@ -78,17 +85,12 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+/*END DROPDOWN CODE*/
 
-img.center {
-    display: block;
-    padding: 20px;
-    max-height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    max-width: 100%;
-    background-color: #f200ff;
-    border-radius: 10px;
+.media-video {
+    opacity:0.75;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .column2 {
@@ -96,9 +98,16 @@ img.center {
     width: 50%;
 }
 
+
+
 .column3 {
     float: left;
     width: 33.3%;
+}
+.column4{
+    float:left;
+    width: 25%;
+    margin-left: 25%;
 }
 
 .row:after {
@@ -107,22 +116,44 @@ img.center {
     clear: both;
 }
 
-div#blue_box{
-    background-color: #7bd2ed;
-}
+
 
 .header {
     font-family: Catamaran, sans-serif;
+    font-size:1.5em;
     text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 15px;
 }
+
+.header-left {
+    font-family: Catamaran, sans-serif;
+    font-size:2.3em;
+    text-align: left;
+
+}
+
+.fadeIn{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
 
 .num_radio {
     padding-bottom: 25px;
     font-size: 250%;
-    
+}
+
+.body-paragraph {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    padding: 2px 10px 2px 10px;
+    border-radius: 15px;
+    background-color: #FFF6E7;
+    font-family: Merriweather;
+    text-align: justify;
+    font-size: 2em;
 }
 
 div#getter {
@@ -131,4 +162,9 @@ div#getter {
     letter-spacing: 25px;
     font-family: 'Catamaran', sans-serif;
     text-align: center;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 8px;
 }
