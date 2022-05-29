@@ -10,4 +10,4 @@ The Moderator is a game about the most thankless job on earth, being a social me
 
 I worked on this game entirely solo, doing all of the programming, writing, gameplay design, and visual design on my own. It was made using the Phaser game framework for Javascript.
 
-If you would like to play the game, click [here](drslowpokephd.github.io/TheModerator).
+If you would like to play the game, click [here](https://drslowpokephd.github.io/TheModerator).
