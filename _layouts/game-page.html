@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{{ content }}
+
+<h2>Gallery</h2>
+
+<div class="image-gallery">
+    {% for image in site.data.screenshots %}
+    {% if page.game-name == image.key%}
+    <div class="box">
+        <a href="{{ image.path }}">
+            <img src="{{ image.path }}" alt="" class="img-gallery">
+        </a>
+        <p>{{ image.description }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
