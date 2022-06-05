@@ -1,8 +1,44 @@
 ---
 ---
 @import "tactile";
+$altColor: #db42cc;
+$altHover: #d46cc9;
+
 header h2 {
-    color: #db42cc;
+    color: $altColor;
+}
+
+a {
+    color: $altColor;
+}
+
+a:hover {
+    color: $altHover;
+}
+
+div.front-page-showcase > img {
+    border: 1px solid black;
+    transition: border 0.5s ease-in-out;
+}
+
+div.front-page-showcase:hover > img {
+    border: 5px solid black;
+}
+
+div.front-page-showcase > a > p {
+    position: relative;
+    bottom: 60px;
+    font-size: 36px;
+    color: white;
+    background-color: black;
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px; 
+    transition: width 0.5s ease-in-out;
+}
+
+div.front-page-showcase:hover > a > p {
+    width: 95%;
 }
 
 /*! div style */
