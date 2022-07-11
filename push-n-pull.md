@@ -1,7 +1,7 @@
 ---
 layout: game-page
 title: Push n' Pull
-permalink: /solo-work/push-n-pull
+permalink: /push-n-pull
 game-name: push-n-pull
 ---
 

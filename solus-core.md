@@ -1,7 +1,7 @@
 ---
 layout: game-page
 title: Solus Core
-permalink: /team-work/solus-core 
+permalink: /solus-core 
 game-name: solus-core
 ---
 

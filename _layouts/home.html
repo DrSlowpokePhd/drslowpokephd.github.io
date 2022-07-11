@@ -4,16 +4,11 @@ layout: default
 
 {{ content }}
 
+{% for game in site.data.games %}
 <div class="front-page-showcase">
-    <a href="/team-work/solus-core">
-        <img src="/assets/Screenshots/SolusCore/solus-core-spawn.png" alt="">
-        <p>Solus Core</p>
+        <a href="{{game.link}}">
+            <img src="{{ game.image }}" alt="">
+        <p>{{ game.name }}</p>
     </a>
 </div>
-
-<div class="front-page-showcase">
-    <a href="/solo-work/the-moderator">
-        <img src="/assets/Screenshots/TheModerator/Post-2.png" alt="">
-        <p>The Moderator</p>
-    </a>
-</div>
+{% endfor %}

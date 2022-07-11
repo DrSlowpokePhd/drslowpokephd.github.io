@@ -13,9 +13,9 @@
 
 {% seo %}
     {% include head-custom.html %}
-  </head>
+      </head>
 
-  <body>
+  <body id="body">
     <div id="container">
       <div class="inner">
 
@@ -24,7 +24,8 @@
               <h1>{{ page.description | default: site.description | default: site.github.project_tagline }}</h1>
           </a>         
           <h2>{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
-        </header>
+        </header> 
+
         <section id="downloads" class="clearfix">
           {% if site.show_downloads %}
           <a href="{{ site.github.zip_url }}" id="download-zip" class="button"><span>Download .zip</span></a>

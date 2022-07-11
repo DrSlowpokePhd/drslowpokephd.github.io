@@ -5,8 +5,6 @@ title: Home
 layout: home
 ---
 
-Hello!
-My name is Jamie Doherty, and I am a Gameplay Programmer and Game Designer. You can find out more about me [here](/about-me/). You can see my [solo work here](/solo-work/) and my [collective work here](/team-work/). If you would like to contact me, you can [do so here](/contact-me/). 
+## Hello there!
 
-
-Here's just a taste of some of the things i've worked on.
+You have reached the portfolio of Jamie Doherty, Gameplay Programmer and Game Designer extraordinaire. Come in, stay a while, you must be exhausted from evaluating so many applicants. Currently, I am working on expanding and polishing my student game *The Moderator*, a story driven adventure about influencing local politics from your job as a social media moderator. Featured below are the game projects that I have worked on over the course of my career. 

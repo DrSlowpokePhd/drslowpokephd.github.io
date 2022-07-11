@@ -1,6 +1,11 @@
-name,link,image,about
-Explosive Flavor,example.com,/assets/amogus.jpg,amogus
-Super Ultra Mob Grinder DX+ Chapter 3: Hellfire,example.com,/assets/amogus.jpg,amogus
-Push 'n Pull,example.com,/assets/amogus.jpg,amogus
-Cyber Tower Defense,example.com,/assets/amogus.jpg,amogus
-The Moderator,example.com,/assets/amogus.jpg,amogus
+name,link,image,about,key
+Solus Core,/solus-core,/assets/Screenshots/SolusCore/solus-core-spawn.png,amogus,solus-core
+The Moderator,/the-moderator,/assets/Screenshots/TheModerator/Post-2.png,amogus,the-moderator
+Explosive Flavor,/explosive-flavor,/assets/Screenshots/ExplosiveFlavor/ExplosiveFlavor1.png,amogus,explosive-flavor
+Super Ultra Mob Grinder DX+ Chapter 3: Hellfire,/super-mob-grinder,/assets/Screenshots/SuperUltraMobGrinder/image1.png,amogus,super-mob-grinder
+Push 'n Pull,/push-n-pull,/assets/Screenshots/PushNPull/level-1.png,amogus,push-n-pull
+The Last Consumer,/the-last-consumer,/assets/Screenshots/TheLastConsumer/TheLastConsumerLogo.png, amogus,the-last-consumer
+The Big Green Clean,/the-big-green-clean,/assets/Screenshots/TheBigGreenClean/gameplay1.png,amogus,the-big-green-clean
+Ma'am Is This Your Child?,/maam-is-this-your-child,/assets/Screenshots/MaamIsThisYourChild/gameplay.png,amogus,maam-is-this-your-child
+I left Earth because I have no friends,/i-left-earth,/assets/Screenshots/ILeftEarthBecauseIHaveNoFriends/image.png,amogus,i-left-earth
+Get the Cat Out of Hell!,/get-the-cat-out-of-hell,/assets/Screenshots/GetTheCatOutOfHell/gameplay2.png,amogus,get-the-cat-out-of-hell

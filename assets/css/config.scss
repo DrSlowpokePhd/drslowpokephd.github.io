@@ -4,6 +4,34 @@
 $altColor: #db42cc;
 $altHover: #d46cc9;
 
+$darkModeColor: #282828;
+$lightModeColor: #fbf1c7;
+$lightHover: #d9d0a9;
+$darkHover: #3b3b3b;
+$lightSubmit: #b3ab8b;
+$darkSubmit: #595959;
+// filters that will achieve $darkModeColor and $lightModeColor for the background since it is an image and not a solid color
+// made using https://codepen.io/sosuke/pen/Pjoqqp
+// darkModeColor: invert(18%) sepia(0%) saturate(70%) hue-rotate(259deg) brightness(100%) contrast(106%);
+// lightModeColor: invert(95%) sepia(9%) saturate(961%) hue-rotate(340deg) brightness(103%) contrast(97%);
+
+button {
+    border: 4;
+    color: $darkModeColor;
+    background-color: $lightModeColor;
+    border-color: $darkModeColor;
+    justify-content: right;
+
+}
+
+button:hover {
+    background-color: $lightHover;
+}
+
+button:active {
+    background-color: $lightSubmit;
+}
+
 header h2 {
     color: $altColor;
 }

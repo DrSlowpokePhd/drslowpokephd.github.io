@@ -1,7 +1,7 @@
 ---
 layout: game-page
 title: Explosive Flavor
-permalink: /team-work/explosive-flavor
+permalink: /explosive-flavor
 game-name: explosive-flavor
 ---
 

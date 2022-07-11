@@ -185,6 +185,12 @@ footer a:hover { color: #444; }
   ol li { margin-left: 10px; } }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+button { border: 4; color: #282828; background-color: #fbf1c7; border-color: #282828; justify-content: right; }
+
+button:hover { background-color: #d9d0a9; }
+
+button:active { background-color: #b3ab8b; }
+
 header h2 { color: #db42cc; }
 
 a { color: #db42cc; }

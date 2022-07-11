@@ -7,8 +7,8 @@ solus-core,/assets/Screenshots/SolusCore/solus-core-sword-thrust.png,Example of 
 solus-core,/assets/Screenshots/SolusCore/solus-core-elite.png,Player encountering an elite enemy.
 solus-core,/assets/Screenshots/SolusCore/solus-core-controls.png,Controls of the game.
 solus-core,/assets/Screenshots/SolusCore/solus-core-credits-deadname.png,Credits of the game. 
-explosive-flavor,/assets/Screenshots/ExplosiveFlavor/ExplosiveFlavor1,Screenshot of Explosive Flavor
-explosive-flavor,/assets/Screenshots/ExplosiveFlavor/ExplosiveFlavor2,Screenshot of Explosive Flavor
+explosive-flavor,/assets/Screenshots/ExplosiveFlavor/ExplosiveFlavor1.png,Screenshot of Explosive Flavor
+explosive-flavor,/assets/Screenshots/ExplosiveFlavor/ExplosiveFlavor2.png,Screenshot of Explosive Flavor
 super-mob-grinder,/assets/Screenshots/SuperUltraMobGrinder/image1.png,Main view of Super Ultra Mob Grinder DX+ Chapter 3: Hellfire
 super-mob-grinder,/assets/Screenshots/SuperUltraMobGrinder/image2.png,Main view of Super Ultra Mob Grinder DX+ Chapter 3: Hellfire
 the-moderator,/assets/Screenshots/TheModerator/TitleScreen.png,Main Menu of The Moderator.
@@ -25,4 +25,17 @@ push-n-pull,/assets/Screenshots/PushNPull/level-6.png, An example of a level in 
 push-n-pull,/assets/Screenshots/PushNPull/level-7.png, An example of a level in Push n' Pull.
 push-n-pull,/assets/Screenshots/PushNPull/level-8.png, An example of a level in Push n' Pull.
 push-n-pull,/assets/Screenshots/PushNPull/level-9.png, An example of a level in Push n' Pull.
-push-n-pull,/assets/Screenshots/PushNPull/menu.png,Main menu of Push n' Pull. 
+push-n-pull,/assets/Screenshots/PushNPull/menu.png,Main menu of Push n' Pull.
+get-the-cat-out-of-hell,/assets/Screenshots/GetTheCatOutOfHell/gameplay1.png, The first level of 'Get The Cat Out Of Hell!' 
+get-the-cat-out-of-hell,/assets/Screenshots/GetTheCatOutOfHell/gameplay2.png, The third level of 'Get The Cat Out Of Hell!'
+get-the-cat-out-of-hell,/assets/Screenshots/GetTheCatOutOfHell/gameplay3.png, The fourth level of 'Get The Cat Out Of Hell!'
+maam-is-this-your-child,/assets/Screenshots/MaamIsThisYourChild/gameplay.png, Gameplay of 'Ma'am is this your child?'.
+maam-is-this-your-child,/assets/Screenshots/MaamIsThisYourChild/pause.png, Pause menu of 'Ma'am is this your child?'.
+maam-is-this-your-child,/assets/Screenshots/MaamIsThisYourChild/title.png, Title menu of 'Ma'am is this your child?'.
+the-big-green-clean,/assets/Screenshots/TheBigGreenClean/title.png, Title screen of 'The Big Green Clean'.
+the-big-green-clean,/assets/Screenshots/TheBigGreenClean/gameplay1.png, Main character Hugh Mann speaking to Sierra the Harpy in the beginning of the game.
+the-big-green-clean,/assets/Screenshots/TheBigGreenClean/gameplay2.png, Hugh Mann exploring the castle looking for messes to sweep up.
+the-big-green-clean,/assets/Screenshots/TheBigGreenClean/gameplay3.png, Hugh Mann in a particularly dirty area of the castle.
+the-big-green-clean,/assets/Screenshots/TheBigGreenClean/background.png, A screen explaining the background of the characters Hugh Mann and Sierra the Harpy.
+the-last-consumer,/assets/Screenshots/TheLastConsumer/TheLastConsumerLogo.png, The logo for the card game 'The Last Consumer'.
+i-left-earth,/assets/Screenshots/ILeftEarthBecauseIHaveNoFriends/image.png,The first screen of the game.
