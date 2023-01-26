@@ -4,7 +4,7 @@ layout: default
 
 {{ content }}
 
-{% for game in site.data.games %}
+{% for game in site.data.games-refined %}
 <div class="front-page-showcase">
         <a href="{{game.link}}">
             <img src="{{ game.image }}" alt="">
